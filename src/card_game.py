@@ -8,7 +8,6 @@ class CardGame:
   def __init__(self, game):
       self.game = game
 
-
   def check_for_ace(self, card):
     if card.value == 1:
       return True
